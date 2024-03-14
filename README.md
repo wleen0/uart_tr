@@ -5,4 +5,4 @@ Let's get started to know the procedure of UART communication. At first, the tra
 **_`de_bounce`_ module**  
 Once the button is pushed, the metal parts inside the button begin to connect and disconnect several times. This causes the signal to bounce and transits multiple inputs as shown in the following figure.  
 By generating the signal for debouncing, with the extra delay time set to avoid the bouncing periods.
-![GITHUB](https://github.com/wleen0/lightflow_disturb/blob/main/imgs/debounce_btn.png)
+![GITHUB](https://github.com/wleen0/uart_tr/blob/main/imgs/uart_communicate.png?raw=true)
