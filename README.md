@@ -5,3 +5,10 @@ Let's get started to know how UART works. UART is commonly used for the communic
 **_`uart_tx`_ module**  
 As mentioned above, the transmitting UART not only transmits the data bits, but also adds the start bit, parity bit and stop bit in the form of a packet. Furthermore, specifying the maximum number of `baud_cnt` counter to define the baud rate is essential before transferring data.
 
+**_`uart_rx`_ module** 
+Due to the fact that the data packet is transferred asynchronously to the UART on the receiver device, there is a need to shift the signal to prevent the metastable state.
+
+# Reference
+https://www.seeedstudio.com/blog/2022/09/08/uart-communication-protocol-and-how-it-works/
+https://blog.csdn.net/weixin_55796564/article/details/122307636
+https://www.totalphase.com/blog/2021/12/i2c-vs-spi-vs-uart-introduction-and-comparison-similarities-differences/
