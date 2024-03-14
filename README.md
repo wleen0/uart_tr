@@ -1,5 +1,5 @@
 # uart_tr
-Let's get started to know the procedure of UART communication. At first, the transmitting UART receives parallel data from the data bus. Before transmitting the data bit-by-bit to the receiving UART, the data is generally added with a start bit, parity bit and stop bit. Since the 
+Let's get started to know the procedure of UART communication. At first, the transmitting UART receives parallel data from the data bus. Before transmitting the data bit-by-bit to the receiving UART, the data is generally added with a start bit, parity bit and stop bit. Since the receiving UART read the serial data, it's converting the data into a parallel form and sending it to the data bus.
 
 
  the transmitting UART, receives parallel data from the CPU (microprocessor or microcontroller) and converts it to serial data. This serial data is transmitted to the UART on the receiver device, or the receiving UART. The receiving UART converts the received serial data back to parallel data and sends it to the CPU. In order for UART to convert serial-to-parallel and parallel-to-serial data, shift registers on the transmitting and receiving UART are used.
