@@ -3,6 +3,5 @@ Let's get started to know how UART works. UART is commonly used for the communic
 ![GITHUB](https://github.com/wleen0/uart_tr/blob/main/imgs/uart_communicate.png?raw=true)
 # Source files
 **_`uart_tx`_ module**  
-As mentioned above, the transmitting UART not only transmits the data bits, but also adds the start bit, parity bit and stop bit in the form of a packet. Before tra
-also define `baud_cnt` maximum number to specify the baud rate
+As mentioned above, the transmitting UART not only transmits the data bits, but also adds the start bit, parity bit and stop bit in the form of a packet. Furthermore, specifying the maximum number of `baud_cnt` counter to define the baud rate is essential before transferring data.
 
