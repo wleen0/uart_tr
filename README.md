@@ -1,2 +1,2 @@
 # uart_tr
-A first task 
+Let's get started to know the procedure of UART communication.
