@@ -7,7 +7,7 @@ As mentioned above, the transmitting UART not only transmits the data bits, but 
 
 **_`uart_rx`_ module**  
 Due to the fact that the data packet is transferred asynchronously to the UART on the receiver device, there is a need to delay the `uart_rxd` signal for a few clock cycles, known as serial packets, to avoid metastability.
-In this design
+In this example, the parity bit is set to assess whether the data should be delivered to the data bus.
 
 # Reference
 * https://www.seeedstudio.com/blog/2022/09/08/uart-communication-protocol-and-how-it-works/
