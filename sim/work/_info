@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/board_game/pynq-z2/practice/240106 led_pause/sim
+vuart_loop
+Z0 !s110 1710487869
+!i10b 1
+!s100 1cOKQIRV0l18YG1RdE:kX1
+IVInPaK4W^c:b<D75d2]c81
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/user/Desktop/rtl_t/sim
+w1710410386
+8C:/Users/user/Desktop/rtl_t/rtl/uart_loop.v
+FC:/Users/user/Desktop/rtl_t/rtl/uart_loop.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1710487869.000000
+!s107 C:/Users/user/Desktop/rtl_t/rtl/uart_loop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/user/Desktop/rtl_t/rtl/uart_loop.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vuart_loop_tb
+!s110 1710487870
+!i10b 1
+!s100 d1lcI;zjjYJb0Zn<4eGkk3
+I7IMM=]n[Ak`SZ>XU=R5HI1
+R1
+R2
+w1710409659
+8C:/Users/user/Desktop/rtl_t/sim/uart_loop_tb.v
+FC:/Users/user/Desktop/rtl_t/sim/uart_loop_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1710487870.000000
+!s107 C:/Users/user/Desktop/rtl_t/sim/uart_loop_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/user/Desktop/rtl_t/sim/uart_loop_tb.v|
+!i113 1
+R5
+R6
+vuart_rx
+R0
+!i10b 1
+!s100 mCYPk5QCCPO4NQn>;P4@R3
+I9?;?PdT;I@aQ<Q=]8egIE0
+R1
+R2
+w1710410861
+8C:/Users/user/Desktop/rtl_t/rtl/uart_rx.v
+FC:/Users/user/Desktop/rtl_t/rtl/uart_rx.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/user/Desktop/rtl_t/rtl/uart_rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/user/Desktop/rtl_t/rtl/uart_rx.v|
+!i113 1
+R5
+R6
+vuart_tx
+R0
+!i10b 1
+!s100 Tem@N376bPGzZ[PU]iMLz0
+I9oF0RB`Kco>b1C7i`gUdU0
+R1
+R2
+w1710410679
+8C:/Users/user/Desktop/rtl_t/rtl/uart_tx.v
+FC:/Users/user/Desktop/rtl_t/rtl/uart_tx.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1710487868.000000
+!s107 C:/Users/user/Desktop/rtl_t/rtl/uart_tx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/user/Desktop/rtl_t/rtl/uart_tx.v|
+!i113 1
+R5
+R6
