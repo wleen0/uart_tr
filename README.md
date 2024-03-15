@@ -6,7 +6,7 @@ Let's get started to know how UART works. UART is commonly used for the communic
 As mentioned above, the transmitting UART not only transmits the data bits, but also adds the start bit, parity bit and stop bit in the form of a packet. Furthermore, specifying the maximum number of `baud_cnt` counter to define the baud rate is essential before transferring data.
 
 **_`uart_rx`_ module**  
-Due to the fact that the data packet is transferred asynchronously to the UART on the receiver device, there is a need to delay the `uart_rxd` signal for a few clock cycles, known as serial packets, to avoid metastability.
+Due to the fact that the data packet is transferred asynchronously to the UART on the receiver device, there is a need to delay the `uart_rxd` signal for a few clock cycles, known as serial packets, to avoid metastability.  
 In this example, the parity bit is set to assess whether the data should be delivered to the data bus. Suppose data containing an even number of 1s, which means the parity bit value is 0, is permitted to transit. Conversely, the receiving UART won't send the data bits if the parity bit is 1.
 
 # Reference
