@@ -12,3 +12,4 @@ Due to the fact that the data packet is transferred asynchronously to the UART o
 * https://www.seeedstudio.com/blog/2022/09/08/uart-communication-protocol-and-how-it-works/
 * https://blog.csdn.net/weixin_55796564/article/details/122307636  
 * https://www.totalphase.com/blog/2021/12/i2c-vs-spi-vs-uart-introduction-and-comparison-similarities-differences/
+* https://www.linkedin.com/advice/1/what-best-practices-avoid-metastability-issues-cross-clock
