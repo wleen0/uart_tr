@@ -10,6 +10,9 @@ Due to the fact that the data packet is transferred asynchronously to the UART o
 In this example, the parity bit is set to assess whether the data should be delivered to the data bus. Suppose data containing an even number of 1s, which means the parity bit value is 0, is permitted to transit. Conversely, the receiving UART won't send the data bits if the parity bit is 1.
 ![GITHUB](https://github.com/wleen0/uart_tr/blob/main/imgs/h55%20and%20h57%20tr.JPG?raw=true)
 
+# Testing
+Verilog design can be simulated in the analysis tools such as Vivado or ModelSim. If the testbench is executed in Visual Studio Code, it also requires Icarus Verilog and GTKWave.
+
 # Reference
 * https://www.seeedstudio.com/blog/2022/09/08/uart-communication-protocol-and-how-it-works/
 * https://blog.csdn.net/weixin_55796564/article/details/122307636  
